@@ -1,0 +1,41 @@
+.header {
+  border-bottom: 1px solid var(--border-color);
+}
+.breadcrumbs{
+  border-bottom: 1px solid var(--border-color);
+}
+.header__container {
+  margin: 0.8rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Header-adaptive */
+
+.adaptive-header__container {
+ justify-content: space-between;
+ align-items: center;
+ margin: 0.6rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

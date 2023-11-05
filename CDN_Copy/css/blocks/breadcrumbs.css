@@ -1,0 +1,10 @@
+.breadcrumbs {
+    line-height: 28px;
+    background: #343434;
+}
+
+.breadcrumbs__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}

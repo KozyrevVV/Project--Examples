@@ -1,0 +1,21 @@
+.wrapper__content{
+  display: flex;
+  justify-content: center;
+}
+.content__container {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 0.5fr 2fr 1fr;
+  margin-top: 2rem;
+}
+
+.main-part__container{
+  padding-bottom: 3rem;
+  max-width: 1000px;
+}
+.main-part__text {
+  line-height: 1.5rem;
+  margin: 1rem 0 2rem;
+  font-weight: 300;
+}
+

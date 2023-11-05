@@ -1,0 +1,23 @@
+@import "/css/_misc/normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+/* //setups */
+@import "/css/_misc/facustom.css";
+@import "/css/_misc/animations.css";
+@import "/css/_misc/layout.css";
+@import "/css/_misc/normalize.css";
+@import "/css/_misc/fonts.css";
+
+/* //blocks */
+@import "/css/blocks/content.css" screen;
+@import "/css/blocks/button.css" screen;
+@import "/css/blocks/header.css" screen;
+@import "/css/blocks/btn.css" screen;
+@import "/css/blocks/banner.css" screen;
+@import "/css/blocks/footer.css" screen;
+@import "/css/blocks/breadcrumbs.css" screen;
+@import "/css/blocks/sidebar.css" screen;
+@import "/css/blocks/article.css" screen;
+@import "/css/_misc/media.css" screen;

@@ -1,0 +1,10 @@
+.wrapper__banner {
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem;
+  justify-content: center;
+  background-color: var(--mdn-color-dark-grey);
+}
+.banner__descr {
+  color: #fff;
+  font-weight: 300;
+}

@@ -1,0 +1,14 @@
+
+
+
+.article-links{
+  border-left: 2px solid var(--border-color);
+}
+
+.article__link {
+  margin: 0.8rem 1rem;
+  max-width: 200px;
+  text-decoration: none;
+  color: var(--light-color);
+  font-size: var(--type-smaller-font-size);
+}
