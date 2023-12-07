@@ -1,0 +1,16 @@
+//colors
+$black: #2f3234;
+$violet:#7224EA;
+$red:#FF5900;
+$yellow:#FCBF14;
+//normalize
+@import "_misc/normalize.css";
+
+
+//setups
+@import "_misc/mixins";
+@import "_misc/fonts";
+@import "_misc/layout";
+
+//blocks
+@import "blocks/hero.css";

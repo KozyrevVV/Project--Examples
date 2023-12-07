@@ -1,0 +1,150 @@
+.header p,a{
+  
+  text-decoration: none;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.header__top{
+  min-width: 1222px;
+  display: flex;
+  position: relative;
+
+  justify-content: space-between;
+ margin-top: 0.475rem
+}
+.header-menu{
+  padding-top: 1.225rem;
+margin-bottom: 2.875rem;
+}
+
+.header__logo{
+
+ margin-right: 1.875rem;
+ 
+  align-items: center;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+.header__logo-text{
+  margin-top: .9375rem;
+  margin-left: -0.26rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  }
+.header__bottom{
+ 
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 50px;
+ 
+}
+.header__bottom-contact{
+  display: flex;
+  flex-direction: row;
+column-gap: 5.7rem;
+padding-bottom: 1.1rem;
+
+}
+.header__contact-info{
+  margin-right: -2rem;
+}
+.header__bottom-adress{
+  margin-bottom: 1.875rem;
+display: flex;
+  padding-left: 1rem;
+align-items: center;
+font-size: 0.875rem;
+font-style: normal;
+}
+.header__bottom-adress::before{
+  content: '\e814';
+color: #000;
+  padding-right: 1rem;
+}
+.header__bottom-info{
+
+  column-gap: 3.5rem;
+  padding:0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3.1875rem;
+  
+  }
+  .header__info{
+    padding:0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3.1875rem;
+    
+  }
+  .header__bottom-info p{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    min-width: 150px;
+  }
+  .header__bottom-info::before{
+    position: absolute;
+    left: 7px;
+  }
+  
+  
+ 
+  .header__contact-phone{
+    padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  }
+  .header__bottom-adress,a:hover{
+    color:#651fff;
+    transition: 1s;
+   
+  }
+  .header__contact-phone::before{
+   position: absolute;
+   top:106px;
+   left:660px
+  }
+  .header__contact-mail{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .875rem;
+  line-height: 1rem;
+  text-decoration-line: underline;
+  }
+
+  @media (max-width: 768px) {
+  .header__top{
+    min-width: 0px;
+    display: block;
+  }
+     .header__bottom-contact{
+       display: none;
+     }
+    }
+
+
+
+
+
+
+
+
+
+  

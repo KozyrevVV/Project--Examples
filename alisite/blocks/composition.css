@@ -1,0 +1,104 @@
+.composition__content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.composition__main-img{
+  position: absolute;
+  left: 130px;
+  z-index: -1;
+}
+.composition__content-logo:after{
+  content: '';
+  position:absolute;
+  z-index: -15;
+  bottom: -82px;
+  left:699px;
+  width: 23.75rem;
+  height: 23.75rem;
+  box-sizing: content-box;
+  display: block;
+  border-radius: 50%;
+  border: 120px #fdbf0f solid;
+  background:url(/img/bg/ali.png) center no-repeat;
+
+}
+.composition__content-top{
+  padding: 0;
+  
+}
+.composition__content-text{
+  padding:0;
+
+}
+
+.composition__content-imagee{
+  position: relative;
+  bottom: 14.375rem;
+
+}
+.enter{
+  font-family: 'Roboto', sans-serif;
+  position: relative !important;
+  left:155px;
+  top: 64px;
+  padding:0;
+  font-weight: 700;
+  font-size: 3.375rem;
+  text-transform: uppercase;
+  color:#FFFFFF;
+}
+.composition__content-left{
+  margin-top: 1.625rem;
+}
+.composition__desc{
+  font-weight: normal;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  width: 25rem;
+}
+
+.composition__content-btn{
+  margin-top: 1.5rem;
+}
+.ali{
+  font-size: 1.5rem;
+  align-items: center;
+  padding: 13px 40px 13px 33px;   
+   
+}
+
+@media (max-width: 768px) {
+  .composition__main-img {
+    position: absolute;
+    top: 109px;
+    left: -181px;
+    z-index: -1;
+  }
+  .composition__content-left{
+    margin: 0;
+  }
+  .composition__content-btn{
+    margin: 0;
+    
+  }
+  h1 {
+    margin:0 !important;
+  }
+  .enter {
+    top:33px
+  }
+  .composition__content-logo:after{
+    left:75px
+  }
+}
+@media (max-width: 480px){
+  .enter{
+    top:59px;
+    left: 113px;
+    font-size: 3em;
+  }
+  .composition__content-logo img{
+  max-width: 300px;
+  }
+}

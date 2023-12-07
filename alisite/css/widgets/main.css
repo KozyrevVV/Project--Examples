@@ -1,0 +1,30 @@
+
+
+
+
+
+@import "_misc/normalize.css";
+@import "responsive";
+
+
+/* //setups */
+@import "_misc/mixins";
+@import "_misc/fonts";
+@import "_misc/layout";
+
+/* //blocks */
+@import "/blocks/scrollbar.css" screen;
+@import "/blocks/hero.css" screen;
+@import "/blocks/header.css" screen;
+@import "/blocks/composition.css" screen;
+@import "/blocks/menu.css" screen;
+@import "/blocks/btn.css" screen;
+@import "/blocks/situation.css" screen;
+@import "/blocks/what.css" screen;
+@import "/blocks/why.css" screen;
+@import "/blocks/who.css" screen;
+@import "/blocks/how.css" screen;
+@import "/blocks/promotion.css" screen;
+@import "/blocks/start.css" screen;
+@import "/blocks/contact.css" screen;
+@import "/blocks/footer.css" screen;

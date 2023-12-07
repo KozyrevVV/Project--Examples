@@ -1,0 +1,1 @@
+ use live server or install npm json-server, because css is not working with absolute path

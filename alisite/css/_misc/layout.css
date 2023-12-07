@@ -1,0 +1,96 @@
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  margin: 0;
+  cursor: default;
+  height: 100%;
+ /* letter-spacing: 0.8px; */
+}
+body{
+
+  font-size: 1rem;
+  line-height: 1.42;
+
+  position: relative;
+  color:black;
+  font-family: 'Roboto Condensed', sans-serif, 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wrapper{
+  z-index: 100;
+  position:relative; 
+  width:100%;
+  min-width: 118.75rem+1.25rem;
+  min-height: 100%;
+  overflow: hidden;
+}
+.section{
+
+ 
+display: block;
+}
+
+.container{
+  position: relative;
+  z-index: 100;
+  width: 95%;
+    max-width: 1177px;
+    margin: 0 auto;
+
+}
+.ns{
+  width: 80rem;
+  height: 40.625rem;
+  margin: 0 auto;
+}
+/* end */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  padding:0;
+  margin-top: 0;
+  font-weight: normal;
+
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+ 
+  }
+
+li{
+  list-style: none;}
+  p{
+    padding: 0;
+    margin: 0;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+  }
+  *{
+    box-sizing: border-box;
+  }
+
+  
+  @media (max-width: 768px){
+    html, body {
+        font-size: .9375rem;
+    }
+  }
+  @media (max-width: 480px){
+    html, body {
+        font-size: .875rem;
+    }
+  }
+ 

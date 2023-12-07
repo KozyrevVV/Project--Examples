@@ -1,0 +1,125 @@
+.start{
+  background-color: #651fff;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  padding-top: 3.0625rem;
+  padding-bottom: 5.2rem;
+}
+.white{
+  font-size: 2rem;
+  line-height: 2.625rem;
+  font-weight: bold;
+
+  text-transform: none;
+
+}
+.section__start-content{
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+  column-gap: 2rem;
+  margin-top: 3.8125rem;
+}
+
+.section__start-content-circles{
+  display: flex;
+
+}
+.section__start-circles-item{
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  align-items: center;
+  
+}
+.circle-desc{
+  font-style: normal;
+font-weight: normal;
+font-size: 1rem !important;
+line-height: 1.1875rem;
+display: flex;
+align-items: center;
+
+}
+.another{
+  color: #fff;
+
+  font-size: 1rem;
+  line-height: 1.75rem;
+  display: flex;
+  align-items: center;
+ padding-left: .8rem;
+  width: 2.8rem;
+ height: 2.8rem;
+  border-radius: 50%;
+  border: 4px #fcbf14 solid;
+  background: #651FFF;
+  box-shadow: 0 0 0 7px #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+.section__start-circles-arrow  {
+  position: relative;
+  top:19px;
+  width: 51px;
+  height: 2px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  left:-7px;
+  display: block;
+}
+.section__start-circles-arrow ::after {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 2px;
+  top: -3px;
+  right: -2px;
+  background-color: #fff;
+  transform: rotate(36deg);
+}
+.section__start-circles-arrow::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  top: 4px;
+  right: -1px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(151deg);
+}
+.section__start-circles-arrow {
+  animation: arrow-hover 1s linear infinite;
+}
+@keyframes arrow-hover {
+  0% {
+      left:0;
+  }
+  50% {
+      left:6px;
+  }
+  100% {
+      left:0;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__start-content{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 1rem;
+  }
+  .section__start-circles-arrow{
+    top:1px;
+    transform: rotate(20deg);
+
+  }
+
+}
